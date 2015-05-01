@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<title>Probabilidades no Futebol</title>
+		<meta name="generator" content="Bootply" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link href="css/styles.css" rel="stylesheet">
+	</head>
+	<body>
+
+<header class="navbar navbar-default navbar-static-top" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/" class="navbar-brand">MENU</a>
+    </div>
+    <nav class="collapse navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="#">Início</a>
+        </li>
+        <li>
+          <a href="#">Matemática</a>
+        </li>
+        <li>
+          <a href="#">UFMG</a>
+        </li>
+        <li>
+          <a href="#">Contato</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- Begin Body -->
+<div class="container">
+	<div class="row">
+			<!-- Inicio Menu Lateral -->
+  			<div class="col-md-3" id="leftCol">
+				<div class="well"> 
+              	<ul class="nav nav-stacked" id="sidebar">
+					<!-- Brasileiro Inicio -->
+                	<li class="dropdown open">
+          				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">Brasileiro <span class="caret"></span></a>
+          					<!-- Inicio DropDown -->
+							<ul class="dropdown-menu" role="menu">
+            					<li>
+									<!-- Inicio Tab -->
+									<ul class="nav nav-tabs">
+  										<li class="active"><a aria-expanded="true" href="#BRserieA" data-toggle="tab">Série A</a></li>
+										<li class=""><a aria-expanded="false" href="#BRserieB" data-toggle="tab">Série B</a></li>
+									</ul>
+									<!-- Conteudo Tab Camp. Brasileiro -->
+									<div id="myTabContent" class="tab-content">
+										<!-- Série A -->
+  										<div class="tab-pane fade active in" id="BRserieA">
+											<table class="table table-striped table-hover">
+												<tbody>
+												<tr>
+													<td><img alt="atletico" src="img/atleticomg.png"></img></td>
+													<td>2</td>
+													<td>3</td>
+													<td>4</td>
+													<td>5</td>
+												</tr>
+												<tr>
+													<td>6</td>
+													<td>7</td>
+													<td>8</td>
+													<td>9</td>
+													<td>10</td>
+												</tr>
+												<tr>
+													<td>11</td>
+													<td>12</td>
+													<td>13</td>
+													<td>14</td>
+													<td>15</td>
+												</tr>
+												<tr>
+													<td>16</td>
+													<td>17</td>
+													<td>18</td>
+													<td>19</td>
+													<td>20</td>
+												</tr>
+												</tbody>
+											</table>
+  										</div>
+										<!-- Série B -->
+  										<div class="tab-pane fade" id="BRserieB">
+											<table class="table table-striped table-hover">
+												<tbody>
+												<tr>
+													<td>1</td>
+													<td>2</td>
+													<td>3</td>
+													<td>4</td>
+													<td>5</td>
+												</tr>
+												<tr>
+													<td>6</td>
+													<td>7</td>
+													<td>8</td>
+													<td>9</td>
+													<td>10</td>
+												</tr>
+												<tr>
+													<td>11</td>
+													<td>12</td>
+													<td>13</td>
+													<td>14</td>
+													<td>15</td>
+												</tr>
+												<tr>
+													<td>16</td>
+													<td>17</td>
+													<td>18</td>
+													<td>19</td>
+													<td>20</td>
+												</tr>
+												</tbody>
+											</table>
+  										</div>
+									<!-- Fim Conteudo da Tab -->
+									</div>	
+								<!-- Fim Tab  -->
+								</li>
+								<!-- Inicio Outras Opções -->
+								<li class="divider"></li>
+								<li><a href="#">Probabilidades por pontuação</a></li>
+								<li><a href="#">Classificações</a></li>
+            					<li><a href="#">Estatísticas</a></li>    	
+            					<li class="divider"></li>
+								<li><a href="#">Próxima Rodada</a></li>
+								<!-- Fim Outras Opções -->
+							<!-- Fim DropDown -->
+          					</ul>
+        		  	<!-- Fim Camp. Brasileiro -->
+				  	</li>
+				  <!-- Inicio Mineiro -->
+                  <li class="dropdown open">
+          				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">Mineiro <span class="caret"></span></a>
+          					<!-- Inicio DropDown -->
+							<ul class="dropdown-menu" role="menu">
+            					<li>
+									<!-- Inicio Tab -->
+									<ul class="nav nav-tabs">
+  										<li class="active"><a aria-expanded="true" href="#MGserieA" data-toggle="tab">Série A</a></li>
+									</ul>
+									<!-- Conteudo Tab Camp. Mineiro -->
+									<div id="myTabContent" class="tab-content">
+										<!-- Série A -->
+  										<div class="tab-pane fade active in" id="MGserieA">
+											<table class="table table-striped table-hover">
+												<tbody>
+												<tr>
+													<td>1</td>
+													<td>2</td>
+													<td>3</td>
+													<td>4</td>
+												</tr>
+												<tr>
+													<td>5</td>
+													<td>6</td>
+													<td>7</td>
+													<td>8</td>
+												</tr>
+												<tr>
+													<td>9</td>
+													<td>10</td>
+													<td>11</td>
+													<td>12</td>
+												</tr>
+												</tbody>
+											</table>
+  										</div>
+									<!-- Fim Conteudo da Tab -->
+									</div>	
+								<!-- Fim Tab  -->
+								</li>
+								<!-- Inicio Outras Opções -->
+								<li class="divider"></li>
+								<li><a href="#">Probabilidades por pontuação </a></li>
+								<li><a href="#">Classificações</a></li>
+            					<li><a href="#">Estatísticas</a></li>    	
+            					<li class="divider"></li>
+								<li><a href="#">Próxima Rodada</a></li>
+								<!-- Fim Outras Opções -->
+							<!-- Fim DropDown -->
+          					</ul>
+        		  	<!-- Fim Camp. Mineiro -->
+				  	</li>
+					
+					
+					
+					
+				  <!-- Inicio Paulista -->
+                  <li class="dropdown open">
+          				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">Paulista <span class="caret"></span></a>
+          					<!-- Inicio DropDown -->
+							<ul class="dropdown-menu" role="menu">
+            					<li>
+									<!-- Inicio Tab -->
+									<ul class="nav nav-tabs">
+  										<li class="active"><a aria-expanded="true" href="#SPserieA" data-toggle="tab">Série A</a></li>
+									</ul>
+									<!-- Conteudo Tab Camp. Paulista -->
+									<div id="myTabContent" class="tab-content">
+										<!-- Série A -->
+  										<div class="tab-pane fade active in" id="SPserieA">
+											<table class="table table-striped table-hover">
+												<tbody>
+												<tr>
+													<td>1</td>
+													<td>2</td>
+													<td>3</td>
+													<td>4</td>
+													<td>5</td>
+												</tr>
+												<tr>
+													<td>6</td>
+													<td>7</td>
+													<td>8</td>
+													<td>9</td>
+													<td>10</td>
+												</tr>
+												<tr>
+													<td>11</td>
+													<td>12</td>
+													<td>13</td>
+													<td>14</td>
+													<td>15</td>
+												</tr>
+												<tr>
+													<td>16</td>
+													<td>17</td>
+													<td>18</td>
+													<td>19</td>
+													<td>20</td>
+												</tr>
+												</tbody>
+											</table>
+  										</div>
+									<!-- Fim Conteudo da Tab -->
+									</div>	
+								<!-- Fim Tab  -->
+								</li>
+								<!-- Inicio Outras Opções -->
+								<li class="divider"></li>
+								<li><a href="#">Probabilidades por pontuação </a></li>
+								<li><a href="#">Classificações</a></li>
+            					<li><a href="#">Estatísticas</a></li>    	
+            					<li class="divider"></li>
+								<li><a href="#">Próxima Rodada</a></li>
+								<!-- Fim Outras Opções -->
+							<!-- Fim DropDown -->
+          					</ul>
+        		  	<!-- Fim Camp. Paulista -->
+				  	</li>
+              	</ul>
+  				</div>
+			<!-- Fim Menu Lateral -->
+			<!-- Inicio do Conteudo do site -->
+      		</div>  
+      		<div class="col-md-9">
+				<div class="panel panel-default">
+              	<div class="panel-heading"><h3>Classificação Geral Campeonato Brasileiro 15° rodada - 2014</h3></div>
+					
+                <table class="table table-striped table-hover">
+					<tr>
+						<th>N</th>
+						<th>Times</th>
+						<th>PG</th>
+						<th>J</th>
+						<th>V</th><th>E</th><th>D</th><th>GF</th><th>GC</th><th>S</th><th>R</th>
+					</tr>
+<tr><td><font size="2">1</font></td><td><font size="2">CRUZEIRO</font></td><td><font size="2">56</font></td><td><font size="2">26</font></td><td><font size="2">17</font></td><td><font size="2">5</font></td><td><font size="2">4</font></td><td><font size="2">51</font></td><td><font size="2">26</font></td><td><font size="2">25</font></td><td><font size="2">71.79</font></td></tr><tr><td><font size="2">2</font></td><td><font size="2">INTERNACIONAL</font></td><td><font size="2">47</font></td><td><font size="2">26</font></td><td><font size="2">14</font></td><td><font size="2">5</font></td><td><font size="2">7</font></td><td><font size="2">36</font></td><td><font size="2">22</font></td><td><font size="2">14</font></td><td><font size="2">60.26</font></td></tr><tr><td><font size="2">3</font></td><td><font size="2">SÃO PAULO</font></td><td><font size="2">46</font></td><td><font size="2">26</font></td><td><font size="2">13</font></td><td><font size="2">7</font></td><td><font size="2">6</font></td><td><font size="2">44</font></td><td><font size="2">33</font></td><td><font size="2">11</font></td><td><font size="2">58.97</font></td></tr><tr><td><font size="2">4</font></td><td><font size="2">ATLÉTICO-MG</font></td><td><font size="2">43</font></td><td><font size="2">26</font></td><td><font size="2">12</font></td><td><font size="2">7</font></td><td><font size="2">7</font></td><td><font size="2">36</font></td><td><font size="2">29</font></td><td><font size="2">7</font></td><td><font size="2">55.13</font></td></tr><tr><td><font size="2">5</font></td><td><font size="2">GRÊMIO</font></td><td><font size="2">43</font></td><td><font size="2">26</font></td><td><font size="2">12</font></td><td><font size="2">7</font></td><td><font size="2">7</font></td><td><font size="2">21</font></td><td><font size="2">15</font></td><td><font size="2">6</font></td><td><font size="2">55.13</font></td></tr><tr><td><font size="2">6</font></td><td><font size="2">CORINTHIANS</font></td><td><font size="2">43</font></td><td><font size="2">26</font></td><td><font size="2">11</font></td><td><font size="2">10</font></td><td><font size="2">5</font></td><td><font size="2">32</font></td><td><font size="2">18</font></td><td><font size="2">14</font></td><td><font size="2">55.13</font></td></tr><tr><td><font size="2">7</font></td><td><font size="2">FLUMINENSE</font></td><td><font size="2">41</font></td><td><font size="2">26</font></td><td><font size="2">11</font></td><td><font size="2">8</font></td><td><font size="2">7</font></td><td><font size="2">41</font></td><td><font size="2">26</font></td><td><font size="2">15</font></td><td><font size="2">52.56</font></td></tr><tr><td><font size="2">8</font></td><td><font size="2">SANTOS</font></td><td><font size="2">39</font></td><td><font size="2">26</font></td><td><font size="2">11</font></td><td><font size="2">6</font></td><td><font size="2">9</font></td><td><font size="2">33</font></td><td><font size="2">23</font></td><td><font size="2">10</font></td><td><font size="2">50.00</font></td></tr><tr><td><font size="2">9</font></td><td><font size="2">SPORT</font></td><td><font size="2">36</font></td><td><font size="2">26</font></td><td><font size="2">10</font></td><td><font size="2">6</font></td><td><font size="2">10</font></td><td><font size="2">21</font></td><td><font size="2">31</font></td><td><font size="2">-10</font></td><td><font size="2">46.15</font></td></tr><tr><td><font size="2">10</font></td><td><font size="2">GOIÁS</font></td><td><font size="2">33</font></td><td><font size="2">26</font></td><td><font size="2">9</font></td><td><font size="2">6</font></td><td><font size="2">11</font></td><td><font size="2">24</font></td><td><font size="2">26</font></td><td><font size="2">-2</font></td><td><font size="2">42.31</font></td></tr><tr><td><font size="2">11</font></td><td><font size="2">FIGUEIRENSE</font></td><td><font size="2">32</font></td><td><font size="2">26</font></td><td><font size="2">9</font></td><td><font size="2">5</font></td><td><font size="2">12</font></td><td><font size="2">24</font></td><td><font size="2">35</font></td><td><font size="2">-11</font></td><td><font size="2">41.03</font></td></tr><tr><td><font size="2">12</font></td><td><font size="2">ATLÉTICO-PR</font></td><td><font size="2">31</font></td><td><font size="2">26</font></td><td><font size="2">8</font></td><td><font size="2">7</font></td><td><font size="2">11</font></td><td><font size="2">28</font></td><td><font size="2">34</font></td><td><font size="2">-6</font></td><td><font size="2">39.74</font></td></tr><tr><td><font size="2">13</font></td><td><font size="2">FLAMENGO</font></td><td><font size="2">31</font></td><td><font size="2">26</font></td><td><font size="2">8</font></td><td><font size="2">7</font></td><td><font size="2">11</font></td><td><font size="2">23</font></td><td><font size="2">32</font></td><td><font size="2">-9</font></td><td><font size="2">39.74</font></td></tr><tr><td><font size="2">14</font></td><td><font size="2">BAHIA</font></td><td><font size="2">30</font></td><td><font size="2">26</font></td><td><font size="2">7</font></td><td><font size="2">9</font></td><td><font size="2">10</font></td><td><font size="2">23</font></td><td><font size="2">25</font></td><td><font size="2">-2</font></td><td><font size="2">38.46</font></td></tr><tr><td><font size="2">15</font></td><td><font size="2">PALMEIRAS</font></td><td><font size="2">28</font></td><td><font size="2">26</font></td><td><font size="2">8</font></td><td><font size="2">4</font></td><td><font size="2">14</font></td><td><font size="2">25</font></td><td><font size="2">41</font></td><td><font size="2">-16</font></td><td><font size="2">35.90</font></td></tr><tr><td><font size="2">16</font></td><td><font size="2">CHAPECOENSE</font></td><td><font size="2">28</font></td><td><font size="2">26</font></td><td><font size="2">7</font></td><td><font size="2">7</font></td><td><font size="2">12</font></td><td><font size="2">23</font></td><td><font size="2">31</font></td><td><font size="2">-8</font></td><td><font size="2">35.90</font></td></tr><tr><td><font size="2">17</font></td><td><font size="2">VITÓRIA	</font></td><td><font size="2">27</font></td><td><font size="2">26</font></td><td><font size="2">7</font></td><td><font size="2">6</font></td><td><font size="2">13</font></td><td><font size="2">26</font></td><td><font size="2">36</font></td><td><font size="2">-10</font></td><td><font size="2">34.62</font></td></tr><tr><td><font size="2">18</font></td><td><font size="2">CRICIÚMA</font></td><td><font size="2">27</font></td><td><font size="2">26</font></td><td><font size="2">6</font></td><td><font size="2">9</font></td><td><font size="2">11</font></td><td><font size="2">16</font></td><td><font size="2">34</font></td><td><font size="2">-18</font></td><td><font size="2">34.62</font></td></tr><tr><td><font size="2">19</font></td><td><font size="2">BOTAFOGO</font></td><td><font size="2">26</font></td><td><font size="2">26</font></td><td><font size="2">7</font></td><td><font size="2">5</font></td><td><font size="2">14</font></td><td><font size="2">26</font></td><td><font size="2">33</font></td><td><font size="2">-7</font></td><td><font size="2">33.33</font></td></tr><tr><td><font size="2">20</font></td><td><font size="2">CORITIBA</font></td><td><font size="2">26</font></td><td><font size="2">26</font></td><td><font size="2">6</font></td><td><font size="2">8</font></td><td><font size="2">12</font></td><td><font size="2">25</font></td><td><font size="2">28</font></td><td><font size="2">-3</font></td><td><font size="2">33.33</font></td></tr>
+				</table>
+				</div>
+              	
+              	<hr class="col-md-12">
+              	<p>Rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
+                dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
+                eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+                sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut.              
+              	Rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
+                dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
+                eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+                sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut!</p>
+              	
+                 <hr>
+				
+              	<h2 id="sec1">Classificação Geral Campeonato Mineiro 10° rodada - 2014</h2>
+              	<table class="table table-striped table-hover">
+					<tbody><tr><td valign="TOP" width="6%">
+<b><font face="Verdana"></font></b><font face="Verdana"></font><p align="CENTER"><font face="Verdana"><b>N</b></font></p></td>
+<td valign="TOP" width="36%">
+<b><font face="Verdana"></font></b><font face="Verdana"></font><p><font face="Verdana"><b>Times</b></font></p></td>
+<td valign="TOP" width="7%">
+<b><font face="Verdana"></font></b><font face="Verdana"></font><p align="CENTER"><font face="Verdana"><b>PG</b></font></p></td>
+<td valign="TOP" width="7%">
+<b><font face="Verdana"></font></b><font face="Verdana"></font><p align="CENTER"><font face="Verdana"><b>J</b></font></p></td>
+<td valign="TOP" width="7%">
+<b><font face="Verdana"></font></b><font face="Verdana"></font><p align="CENTER"><font face="Verdana"><b>V</b></font></p></td>
+<td valign="TOP" width="7%">
+<b><font face="Verdana"></font></b><font face="Verdana"></font><p align="CENTER"><font face="Verdana"><b>E</b></font></p></td>
+<td valign="TOP" width="7%">
+<b><font face="Verdana"></font></b><font face="Verdana"></font><p align="CENTER"><font face="Verdana"><b>D</b></font></p></td>
+<td valign="TOP" width="7%">
+<b><font face="Verdana"></font></b><font face="Verdana"></font><p align="CENTER"><font face="Verdana"><b>GF</b></font></p></td>
+<td valign="TOP" width="7%">
+<b><font face="Verdana"></font></b><font face="Verdana"></font><p align="CENTER"><font face="Verdana"><b>GC</b></font></p></td>
+<td valign="TOP" width="10%">
+<b><font face="Verdana"></font></b><font face="Verdana"></font><p align="CENTER"><font face="Verdana"><b> S </b></font></p></td>
+<td valign="TOP" width="10%">
+<b><font face="Verdana"></font></b><font face="Verdana"></font><p align="CENTER"><font face="Verdana"><b>R</b></font></p></td>
+</tr>
+<tr><td valign="TOP" width="6%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">1</font></p></td>
+<td valign="TOP" width="36%">
+<font face="Verdana"></font><p><font face="Verdana">CRUZEIRO</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">24</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">10</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">7</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">3</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">0</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">22</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">5</font></p></td>
+<td valign="TOP" width="10%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">17</font></p></td>
+<td valign="TOP" width="10%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">80.00</font></p></td>
+</tr>
+<tr><td valign="TOP" width="6%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">2</font></p></td>
+<td valign="TOP" width="36%">
+<font face="Verdana"></font><p><font face="Verdana">ATLÉTICO</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">22</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">10</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">7</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">1</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">2</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">20</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">5</font></p></td>
+<td valign="TOP" width="10%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">15</font></p></td>
+<td valign="TOP" width="10%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">73.33</font></p></td>
+</tr>
+<tr><td valign="TOP" width="6%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">3</font></p></td>
+<td valign="TOP" width="36%">
+<font face="Verdana"></font><p><font face="Verdana">CALDENSE</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">22</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">10</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">6</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">4</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">0</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">15</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">4</font></p></td>
+<td valign="TOP" width="10%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">11</font></p></td>
+<td valign="TOP" width="10%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">73.33</font></p></td>
+</tr>
+<tr><td valign="TOP" width="6%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">4</font></p></td>
+<td valign="TOP" width="36%">
+<font face="Verdana"></font><p><font face="Verdana">TOMBENSE</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">17</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">10</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">5</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">2</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">3</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">15</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">13</font></p></td>
+<td valign="TOP" width="10%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">2</font></p></td>
+<td valign="TOP" width="10%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">56.67</font></p></td>
+</tr>
+<tr><td valign="TOP" width="6%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">5</font></p></td>
+<td valign="TOP" width="36%">
+<font face="Verdana"></font><p><font face="Verdana">AMÉRICA</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">17</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">10</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">4</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">5</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">1</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">10</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">6</font></p></td>
+<td valign="TOP" width="10%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">4</font></p></td>
+<td valign="TOP" width="10%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">56.67</font></p></td>
+</tr>
+<tr><td valign="TOP" width="6%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">6</font></p></td>
+<td valign="TOP" width="36%">
+<font face="Verdana"></font><p><font face="Verdana">VILLA NOVA</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">13</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">10</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">3</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">4</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">3</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">7</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">14</font></p></td>
+<td valign="TOP" width="10%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">-7</font></p></td>
+<td valign="TOP" width="10%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">43.33</font></p></td>
+</tr>
+<tr><td valign="TOP" width="6%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">7</font></p></td>
+<td valign="TOP" width="36%">
+<font face="Verdana"></font><p><font face="Verdana">TUPI</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">10</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">10</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">3</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">1</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">6</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">8</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">15</font></p></td>
+<td valign="TOP" width="10%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">-7</font></p></td>
+<td valign="TOP" width="10%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">33.33</font></p></td>
+</tr>
+<tr><td valign="TOP" width="6%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">8</font></p></td>
+<td valign="TOP" width="36%">
+<font face="Verdana"></font><p><font face="Verdana">DEMOCRATA-GV</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">8</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">10</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">2</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">2</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">6</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">8</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">14</font></p></td>
+<td valign="TOP" width="10%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">-6</font></p></td>
+<td valign="TOP" width="10%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">26.67</font></p></td>
+</tr>
+<tr><td valign="TOP" width="6%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">9</font></p></td>
+<td valign="TOP" width="36%">
+<font face="Verdana"></font><p><font face="Verdana">MAMORÉ</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">8</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">10</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">2</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">2</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">6</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">9</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">18</font></p></td>
+<td valign="TOP" width="10%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">-9</font></p></td>
+<td valign="TOP" width="10%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">26.67</font></p></td>
+</tr>
+<tr><td valign="TOP" width="6%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">10</font></p></td>
+<td valign="TOP" width="36%">
+<font face="Verdana"></font><p><font face="Verdana">BOA ESPORTE</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">8</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">10</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">1</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">5</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">4</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">6</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">10</font></p></td>
+<td valign="TOP" width="10%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">-4</font></p></td>
+<td valign="TOP" width="10%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">26.67</font></p></td>
+</tr>
+<tr><td valign="TOP" width="6%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">11</font></p></td>
+<td valign="TOP" width="36%">
+<font face="Verdana"></font><p><font face="Verdana">URT</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">7</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">10</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">2</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">1</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">7</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">6</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">14</font></p></td>
+<td valign="TOP" width="10%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">-8</font></p></td>
+<td valign="TOP" width="10%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">23.33</font></p></td>
+</tr>
+<tr><td valign="TOP" width="6%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">12</font></p></td>
+<td valign="TOP" width="36%">
+<font face="Verdana"></font><p><font face="Verdana">GUARANI</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">7</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">10</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">1</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">4</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">5</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">7</font></p></td>
+<td valign="TOP" width="7%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">15</font></p></td>
+<td valign="TOP" width="10%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">-8</font></p></td>
+<td valign="TOP" width="10%">
+<font face="Verdana"></font><p align="CENTER"><font face="Verdana">23.33</font></p></td>
+</tr>
+</tbody>
+				</table>
+              
+              	<hr>
+              
+              	<h2 id="sec2">Classificação Geral Campeonato Paulista 01° rodada - 2014</h2>
+              	<p>
+                Rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
+                dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
+                eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+                sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut!
+              	</p>
+				<table class="table table-striped table-hover">
+					<tr>
+						<th>N</th>
+						<th>Times</th>
+						<th>PG</th>
+						<th>J</th>
+						<th>V</th><th>E</th><th>D</th><th>GF</th><th>GC</th><th>S</th><th>R</th>
+					</tr>
+<tr><td><font size="2">1</font></td><td><font size="2">CRUZEIRO</font></td><td><font size="2">56</font></td><td><font size="2">26</font></td><td><font size="2">17</font></td><td><font size="2">5</font></td><td><font size="2">4</font></td><td><font size="2">51</font></td><td><font size="2">26</font></td><td><font size="2">25</font></td><td><font size="2">71.79</font></td></tr><tr><td><font size="2">2</font></td><td><font size="2">INTERNACIONAL</font></td><td><font size="2">47</font></td><td><font size="2">26</font></td><td><font size="2">14</font></td><td><font size="2">5</font></td><td><font size="2">7</font></td><td><font size="2">36</font></td><td><font size="2">22</font></td><td><font size="2">14</font></td><td><font size="2">60.26</font></td></tr><tr><td><font size="2">3</font></td><td><font size="2">SÃO PAULO</font></td><td><font size="2">46</font></td><td><font size="2">26</font></td><td><font size="2">13</font></td><td><font size="2">7</font></td><td><font size="2">6</font></td><td><font size="2">44</font></td><td><font size="2">33</font></td><td><font size="2">11</font></td><td><font size="2">58.97</font></td></tr><tr><td><font size="2">4</font></td><td><font size="2">ATLÉTICO-MG</font></td><td><font size="2">43</font></td><td><font size="2">26</font></td><td><font size="2">12</font></td><td><font size="2">7</font></td><td><font size="2">7</font></td><td><font size="2">36</font></td><td><font size="2">29</font></td><td><font size="2">7</font></td><td><font size="2">55.13</font></td></tr><tr><td><font size="2">5</font></td><td><font size="2">GRÊMIO</font></td><td><font size="2">43</font></td><td><font size="2">26</font></td><td><font size="2">12</font></td><td><font size="2">7</font></td><td><font size="2">7</font></td><td><font size="2">21</font></td><td><font size="2">15</font></td><td><font size="2">6</font></td><td><font size="2">55.13</font></td></tr><tr><td><font size="2">6</font></td><td><font size="2">CORINTHIANS</font></td><td><font size="2">43</font></td><td><font size="2">26</font></td><td><font size="2">11</font></td><td><font size="2">10</font></td><td><font size="2">5</font></td><td><font size="2">32</font></td><td><font size="2">18</font></td><td><font size="2">14</font></td><td><font size="2">55.13</font></td></tr><tr><td><font size="2">7</font></td><td><font size="2">FLUMINENSE</font></td><td><font size="2">41</font></td><td><font size="2">26</font></td><td><font size="2">11</font></td><td><font size="2">8</font></td><td><font size="2">7</font></td><td><font size="2">41</font></td><td><font size="2">26</font></td><td><font size="2">15</font></td><td><font size="2">52.56</font></td></tr><tr><td><font size="2">8</font></td><td><font size="2">SANTOS</font></td><td><font size="2">39</font></td><td><font size="2">26</font></td><td><font size="2">11</font></td><td><font size="2">6</font></td><td><font size="2">9</font></td><td><font size="2">33</font></td><td><font size="2">23</font></td><td><font size="2">10</font></td><td><font size="2">50.00</font></td></tr><tr><td><font size="2">9</font></td><td><font size="2">SPORT</font></td><td><font size="2">36</font></td><td><font size="2">26</font></td><td><font size="2">10</font></td><td><font size="2">6</font></td><td><font size="2">10</font></td><td><font size="2">21</font></td><td><font size="2">31</font></td><td><font size="2">-10</font></td><td><font size="2">46.15</font></td></tr><tr><td><font size="2">10</font></td><td><font size="2">GOIÁS</font></td><td><font size="2">33</font></td><td><font size="2">26</font></td><td><font size="2">9</font></td><td><font size="2">6</font></td><td><font size="2">11</font></td><td><font size="2">24</font></td><td><font size="2">26</font></td><td><font size="2">-2</font></td><td><font size="2">42.31</font></td></tr><tr><td><font size="2">11</font></td><td><font size="2">FIGUEIRENSE</font></td><td><font size="2">32</font></td><td><font size="2">26</font></td><td><font size="2">9</font></td><td><font size="2">5</font></td><td><font size="2">12</font></td><td><font size="2">24</font></td><td><font size="2">35</font></td><td><font size="2">-11</font></td><td><font size="2">41.03</font></td></tr><tr><td><font size="2">12</font></td><td><font size="2">ATLÉTICO-PR</font></td><td><font size="2">31</font></td><td><font size="2">26</font></td><td><font size="2">8</font></td><td><font size="2">7</font></td><td><font size="2">11</font></td><td><font size="2">28</font></td><td><font size="2">34</font></td><td><font size="2">-6</font></td><td><font size="2">39.74</font></td></tr><tr><td><font size="2">13</font></td><td><font size="2">FLAMENGO</font></td><td><font size="2">31</font></td><td><font size="2">26</font></td><td><font size="2">8</font></td><td><font size="2">7</font></td><td><font size="2">11</font></td><td><font size="2">23</font></td><td><font size="2">32</font></td><td><font size="2">-9</font></td><td><font size="2">39.74</font></td></tr><tr><td><font size="2">14</font></td><td><font size="2">BAHIA</font></td><td><font size="2">30</font></td><td><font size="2">26</font></td><td><font size="2">7</font></td><td><font size="2">9</font></td><td><font size="2">10</font></td><td><font size="2">23</font></td><td><font size="2">25</font></td><td><font size="2">-2</font></td><td><font size="2">38.46</font></td></tr><tr><td><font size="2">15</font></td><td><font size="2">PALMEIRAS</font></td><td><font size="2">28</font></td><td><font size="2">26</font></td><td><font size="2">8</font></td><td><font size="2">4</font></td><td><font size="2">14</font></td><td><font size="2">25</font></td><td><font size="2">41</font></td><td><font size="2">-16</font></td><td><font size="2">35.90</font></td></tr><tr><td><font size="2">16</font></td><td><font size="2">CHAPECOENSE</font></td><td><font size="2">28</font></td><td><font size="2">26</font></td><td><font size="2">7</font></td><td><font size="2">7</font></td><td><font size="2">12</font></td><td><font size="2">23</font></td><td><font size="2">31</font></td><td><font size="2">-8</font></td><td><font size="2">35.90</font></td></tr><tr><td><font size="2">17</font></td><td><font size="2">VITÓRIA	</font></td><td><font size="2">27</font></td><td><font size="2">26</font></td><td><font size="2">7</font></td><td><font size="2">6</font></td><td><font size="2">13</font></td><td><font size="2">26</font></td><td><font size="2">36</font></td><td><font size="2">-10</font></td><td><font size="2">34.62</font></td></tr><tr><td><font size="2">18</font></td><td><font size="2">CRICIÚMA</font></td><td><font size="2">27</font></td><td><font size="2">26</font></td><td><font size="2">6</font></td><td><font size="2">9</font></td><td><font size="2">11</font></td><td><font size="2">16</font></td><td><font size="2">34</font></td><td><font size="2">-18</font></td><td><font size="2">34.62</font></td></tr><tr><td><font size="2">19</font></td><td><font size="2">BOTAFOGO</font></td><td><font size="2">26</font></td><td><font size="2">26</font></td><td><font size="2">7</font></td><td><font size="2">5</font></td><td><font size="2">14</font></td><td><font size="2">26</font></td><td><font size="2">33</font></td><td><font size="2">-7</font></td><td><font size="2">33.33</font></td></tr><tr><td><font size="2">20</font></td><td><font size="2">CORITIBA</font></td><td><font size="2">26</font></td><td><font size="2">26</font></td><td><font size="2">6</font></td><td><font size="2">8</font></td><td><font size="2">12</font></td><td><font size="2">25</font></td><td><font size="2">28</font></td><td><font size="2">-3</font></td><td><font size="2">33.33</font></td></tr>
+				</table>            
+              
+              	<hr>
+				<div id="Paginacao" align="center">           		
+					<ul class="pagination">
+  						<li class="disabled"><a href="#">«</a></li>
+						<li class="active"><a href="#">1</a></li>
+  <li><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+  <li><a href="#">5</a></li>
+  <li><a href="#">»</a></li>
+					</ul>
+              	<hr>
+				</div>
+              	      	
+      		</div> 
+  	<!-- Fim do Conteudo do site -->
+	</div>
+</div>
+
+
+
+	<!-- script references -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+		<script src="js/jquery-2.1.3.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>	
+		<script src="js/aux_site.js"></script>	
+	</body>
+</html>
+
